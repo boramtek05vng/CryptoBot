@@ -13,7 +13,7 @@ id = "ethereum"
 result = requests.get("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids="+id+"&order=market_cap_desc").json()[0]
 print(type(nr.numerize(result['market_cap'],3)))
 print(result['current_price'])
-    
+print(result['current_price'])
 
       
 def button_gen(buttons):

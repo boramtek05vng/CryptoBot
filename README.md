@@ -6,4 +6,6 @@ Using API from Coingecko to retrieve data about cryptocurrencies (current price,
 
 Display data based on what user asks on Telegram
 
-Display a chart of a specific coin since released
+Plot and display a chart of a specific coin since released
+
+Library: pyTelegramBotAPI, matplotlib, pandas, requests, numpy
